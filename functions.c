@@ -1,9 +1,9 @@
 #include "main.h"
 
-/************************* PRINT CHAR *************************/
+/************************* PRINT CHARARACTER *************************/
 
 /**
-* print_char - Prints a char
+* print_character - Prints a character
 * @types: List a of arguments
 * @buffer: Buffer array to handle print
 * @flags: determine active flags
@@ -97,7 +97,7 @@ UNUSED(size);
 return (write(1, "%%", 1));
 }
 
-/************************* PRINT INT *************************/
+/************************* PRINT INTEGER *************************/
 /**
 * print_int - Print integer
 * @types: List of arguments
