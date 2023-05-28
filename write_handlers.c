@@ -5,7 +5,7 @@
  * handle_write_char - Prints a string
  * @c: char types.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags.
+ * @flags:  Calculatesthe number of  active flags.
  * @width: get width.
  * @precision: precision specifier
  * @size: Size specifier
@@ -46,8 +46,8 @@ int handle_write_char(char c, char buffer[],
 
 /************************* WRITE NUMBER *************************/
 /**
- * write_number - Prints a string
- * @is_negative: Lista of arguments
+ * write_number - This prints a string
+ * @is_negative: List the number of arguments
  * @ind: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -139,9 +139,9 @@ int write_num(int ind, char buffer[],
 
 /**
  * write_unsgnd - Writes an unsigned number
- * @is_negative: Number indicating if the num is negative
+ * @is_negative: Number would indicate if the num is negative
  * @ind: Index at which the number starts in the buffer
- * @buffer: Array of chars
+ * @buffer: shows array of chars
  * @flags: Flags specifiers
  * @width: Width specifier
  * @precision: Precision specifier
